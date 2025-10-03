@@ -1,29 +1,90 @@
 Project Overview
 
-This project is built in Power BI and focuses on analyzing app data to extract meaningful patterns and insights. The dataset includes details such as app names, categories, ratings, reviews, installs, and update history. Using Power BI, I designed an interactive dashboard that allows users to explore app performance, compare different metrics, and identify the factors that influence popularity and user satisfaction.
+Google Play Store Dashboard – Intermediate & Advanced Insights
+This Power BI dashboard provides a comprehensive analysis of app performance on the Google Play Store, focusing on user engagement, app quality, and business impact. It goes beyond basic metrics to answer intermediate and advanced analytical questions using calculated fields, dynamic filters, and interactive visuals.
 
-The analysis covers a range of perspectives – from overall performance trends to category-level insights – making the data easy to interpret for decision-making.
+🎯 Key Objectives
+Identify top-performing apps by installs, ratings, and reviews
 
-Key Insights Performed
+Analyze app categories for strategic insights
 
-* Top App Analysis – Identified the top 10 apps with the highest ratings and compared their installs and reviews to check whether high ratings also translate into higher engagement.
+Detect patterns in user feedback and app monetization
 
-* Update Trends – Analyzed the frequency of app updates over time and explored whether certain months or seasons show higher update activity.
+Enable decision-making for developers and marketers
 
-* Ratings vs. Reviews & Installs – Studied the correlation between ratings, number of reviews, and installs to understand user satisfaction in relation to popularity.
+🔍 Dashboard Features & Insights
+1. Top Apps by Installs and Ratings
+Highlighted the most downloaded apps across categories
 
-* Category/Genre Analysis – Compared average ratings and engagement across different categories to highlight which genres perform consistently well and which need improvement.
+Used DAX measures to rank apps dynamically
 
-* High vs. Low Performers – Highlighted apps with large install bases but poor ratings, as well as apps with excellent ratings but limited visibility, helping identify growth opportunities.
+Included slicers for category and content rating to filter results
 
-* Overall Trends – Summarized key business patterns to show how different factors (updates, ratings, installs) collectively impact app success.
+2. Category-Wise Performance
+Compared average ratings, total installs, and review counts across categories
 
-Purpose
+Identified high-engagement categories (e.g., Communication, Tools, Entertainment)
 
-The purpose of this project is to showcase how Power BI can transform raw data into a meaningful story through visualization. By building this dashboard, I aimed to:
+Used bar charts and heatmaps to visualize performance distribution
 
-Provide a comprehensive view of app performance across multiple dimensions.
+3. Paid vs Free Apps Analysis
+Segmented apps based on pricing model
 
-Enable easy comparison and filtering using interactive charts and slicers.
+Compared installs, ratings, and reviews between paid and free apps
 
-Support data-driven decision-making for app developers, businesses, or marketers by highlighting what drives user satisfaction and engagement.
+Provided insights into monetization strategy effectiveness
+
+4. Content Rating Impact
+Analyzed how content ratings (Everyone, Teen, Mature 17+) affect installs and reviews
+
+Used stacked visuals to show distribution across age groups
+
+Helped assess audience targeting and compliance
+
+5. App Size vs Installs Correlation
+Explored whether larger app sizes impact download behavior
+
+Used scatter plots to visualize correlation
+
+Added trend lines and tooltips for deeper interpretation
+
+6. Sentiment Analysis of Reviews (Advanced)
+Integrated review text data to extract sentiment scores (if applicable)
+
+Visualized positive, neutral, and negative sentiment distribution
+
+Enabled filtering by sentiment to identify apps with reputation risks
+
+7. Custom KPIs and Calculated Fields
+Created custom KPIs like:
+
+Engagement Score = (Reviews × Rating) ÷ Installs
+
+Popularity Index = Installs ÷ App Age
+
+Used DAX to build calculated columns and measures for deeper insights
+
+8. Interactive Filters and Drilldowns
+Enabled drill-through from category to individual app details
+
+Used slicers for dynamic filtering by category, type, rating, and price
+
+Enhanced user experience with responsive visuals
+
+🛠️ Tools & Techniques Used
+Power BI Desktop (.pbix)
+
+DAX for calculated fields and KPIs
+
+Data cleaning and transformation in Power Query
+
+Advanced visualizations: scatter plots, heatmaps, KPI cards, slicers
+
+📌 Value Delivered
+Helps developers identify high-performing app traits
+
+Supports marketing teams in targeting the right audience
+
+Enables product managers to prioritize app improvements
+
+Offers investors and analysts a snapshot of app market dynamics
